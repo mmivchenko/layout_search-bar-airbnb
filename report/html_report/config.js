@@ -4,7 +4,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Entire_document_1024px.png",
-        "test": "../bitmaps_test/20240312-220551/Entire_document_1024px.png",
+        "test": "../bitmaps_test/20240313-214143/Entire_document_1024px.png",
         "selector": "document",
         "fileName": "Entire_document_1024px.png",
         "label": "Entire document",
@@ -20,9 +20,9 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.6878662109375,
-          "misMatchPercentage": "0.69",
-          "analysisTime": 91
+          "rawMisMatchPercentage": 0.0421142578125,
+          "misMatchPercentage": "0.04",
+          "analysisTime": 43
         }
       },
       "status": "pass"
@@ -30,7 +30,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Entire_document_720px.png",
-        "test": "../bitmaps_test/20240312-220551/Entire_document_720px.png",
+        "test": "../bitmaps_test/20240313-214143/Entire_document_720px.png",
         "selector": "document",
         "fileName": "Entire_document_720px.png",
         "label": "Entire document",
@@ -46,9 +46,9 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.978298611111111,
-          "misMatchPercentage": "0.98",
-          "analysisTime": 104
+          "rawMisMatchPercentage": 0.05989583333333333,
+          "misMatchPercentage": "0.06",
+          "analysisTime": 36
         }
       },
       "status": "pass"
@@ -56,7 +56,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Big_search_bar_data-qa_big_1024px.png",
-        "test": "../bitmaps_test/20240312-220551/Big_search_bar_data-qa_big_1024px.png",
+        "test": "../bitmaps_test/20240313-214143/Big_search_bar_data-qa_big_1024px.png",
         "selector": "[data-qa=\"big\"]",
         "fileName": "Big_search_bar_data-qa_big_1024px.png",
         "label": "Big search bar data-qa_big",
@@ -72,9 +72,9 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.9141156462585034,
-          "misMatchPercentage": "0.91",
-          "analysisTime": 58
+          "rawMisMatchPercentage": 0.05952380952380953,
+          "misMatchPercentage": "0.06",
+          "analysisTime": 38
         }
       },
       "status": "pass"
@@ -82,7 +82,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/Big_search_bar_data-qa_big_720px.png",
-        "test": "../bitmaps_test/20240312-220551/Big_search_bar_data-qa_big_720px.png",
+        "test": "../bitmaps_test/20240313-214143/Big_search_bar_data-qa_big_720px.png",
         "selector": "[data-qa=\"big\"]",
         "fileName": "Big_search_bar_data-qa_big_720px.png",
         "label": "Big search bar data-qa_big",
@@ -98,18 +98,17 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 1.3088474025974026,
-          "misMatchPercentage": "1.31",
-          "analysisTime": 62
-        },
-        "diffImage": "../bitmaps_test/20240312-220551/failed_diff_Big_search_bar_data-qa_big_720px.png"
+          "rawMisMatchPercentage": 0.08522727272727272,
+          "misMatchPercentage": "0.09",
+          "analysisTime": 29
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Small_search_bar_data-qa_small_1024px.png",
-        "test": "../bitmaps_test/20240312-220551/Small_search_bar_data-qa_small_1024px.png",
+        "test": "../bitmaps_test/20240313-214143/Small_search_bar_data-qa_small_1024px.png",
         "selector": "[data-qa=\"small\"]",
         "fileName": "Small_search_bar_data-qa_small_1024px.png",
         "label": "Small search bar data-qa_small",
@@ -125,18 +124,17 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 1.1385109599395313,
-          "misMatchPercentage": "1.14",
-          "analysisTime": 57
-        },
-        "diffImage": "../bitmaps_test/20240312-220551/failed_diff_Small_search_bar_data-qa_small_1024px.png"
+          "rawMisMatchPercentage": 0.06377551020408163,
+          "misMatchPercentage": "0.06",
+          "analysisTime": 23
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Small_search_bar_data-qa_small_720px.png",
-        "test": "../bitmaps_test/20240312-220551/Small_search_bar_data-qa_small_720px.png",
+        "test": "../bitmaps_test/20240313-214143/Small_search_bar_data-qa_small_720px.png",
         "selector": "[data-qa=\"small\"]",
         "fileName": "Small_search_bar_data-qa_small_720px.png",
         "label": "Small search bar data-qa_small",
@@ -152,13 +150,12 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 1.6301406926406927,
-          "misMatchPercentage": "1.63",
-          "analysisTime": 49
-        },
-        "diffImage": "../bitmaps_test/20240312-220551/failed_diff_Small_search_bar_data-qa_small_720px.png"
+          "rawMisMatchPercentage": 0.09131493506493506,
+          "misMatchPercentage": "0.09",
+          "analysisTime": 22
+        }
       },
-      "status": "fail"
+      "status": "pass"
     }
   ]
 });
